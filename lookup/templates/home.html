@@ -3,5 +3,15 @@
 {% block content %} 
 
 <h1>Hello Shubham</h1>
+<br/>
+
+
+		{{ api }} <br/><br/>#from view.py\ api.0 means 1st dict
+
+		AirQuality :{{ api.0.AQI }}<br/>
+		Area: {{ api.0.ReportingArea }} <br/>
+
+
+
 
 {% endblock %}
